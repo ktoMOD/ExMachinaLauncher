@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BackUpMainProfileBtn" xml:space="preserve">
+    <value>Сохранить профиль игры</value>
+  </data>
+  <data name="CleareDataBtn" xml:space="preserve">
+    <value>Очистить игру</value>
+  </data>
+  <data name="ExitBtn" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="ListModTA" xml:space="preserve">
+    <value>Список модификаций:</value>
+  </data>
+  <data name="LoadedModTB" xml:space="preserve">
+    <value>Загруженная модификация:</value>
+  </data>
+  <data name="LoadModBtn" xml:space="preserve">
+    <value>Загрузить модификацию</value>
+  </data>
+  <data name="SiteBtn" xml:space="preserve">
+    <value>DeusExMachina</value>
+  </data>
+  <data name="StartGameBtn" xml:space="preserve">
+    <value>Запустить игру</value>
+  </data>
+  <data name="StartGameConsoleBtn" xml:space="preserve">
+    <value>Запустить игру с консолью</value>
+  </data>
+  <data name="UnloadModBtn" xml:space="preserve">
+    <value>Выгрузить модификацию</value>
+  </data>
+  <data name="NoLoadedMods" xml:space="preserve">
+    <value>Нет загруженных модификаций</value>
+  </data>
+  <data name="WarningTb" xml:space="preserve">
+    <value>Внимание:</value>
+  </data>
+  <data name="ClearDataWarning" xml:space="preserve">
+    <value>Из папки с игрой будут удалены все установленные модификации. 
+Профиль игрока так же будет удалён.
+Будут восстановлены родные файлы игры.
+
+Продолжить?</value>
+  </data>
+  <data name="LoadMainProfileBtn" xml:space="preserve">
+    <value>Загрузить профиль игры</value>
+  </data>
+  <data name="loadManyModWarning" xml:space="preserve">
+    <value>Вы пытаетесь установить модификацию поверх ранее установленной.
+Не делайте этого, если модификации не являются совместимыми.
+Если вы не уверены в совместимости модификаций - нажмите кнопку "Отмена".
+
+
+Продолжить?</value>
+  </data>
+  <data name="loadModWarning" xml:space="preserve">
+    <value>Перед установкой модификации рекомендовано выполнить очистку игры при помощи кнопки "Очистить игру".
+Все сохранения при этом будут утеряны. 
+Что бы сохранить профиль игрока воспользуйтесь кнопкой "Сохранить профиль".</value>
+  </data>
+  <data name="BackUpProfile" xml:space="preserve">
+    <value>Сохранение работает ТОЛЬКО для профиля в игре без модификаций.
+Что бы сохранить профиль модификации воспользуйтесь кнопкой "Выгрузить модификацию".
+
+Продолжить?</value>
+  </data>
+  <data name="errorLoadBackUpProfile" xml:space="preserve">
+    <value>Вы не можете этого сделать.
+Обнаружена установленная модификация. 
+Воспользуйтесь кнопкой "Выгрузить модификацию", а затем повторите попытку.</value>
+  </data>
+  <data name="infoBackUpProfile" xml:space="preserve">
+    <value>Профиль игрока успешно сохранён.</value>
+  </data>
+  <data name="infoClean" xml:space="preserve">
+    <value>Игра успешно очищена.
+Вы можете начать новую игру или загрузить сохранённый профиль.</value>
+  </data>
+  <data name="infoLoadProfile" xml:space="preserve">
+    <value>Профиль игрока успешно загружен.</value>
+  </data>
+  <data name="infoLoadWindow" xml:space="preserve">
+    <value> загружен успешно!</value>
+  </data>
+  <data name="InfoTb" xml:space="preserve">
+    <value>Информация:</value>
+  </data>
+  <data name="infoUnload" xml:space="preserve">
+    <value> модификация успешно выгружена. 
+Профиль игрока сохранён в папке с модификацией.</value>
+  </data>
+  <data name="infoUnloadModExeption" xml:space="preserve">
+    <value>Невозможно выгрузить модификацию, у вас чистая игра.
+Можете загрузить модификацию или играть в чистую игру.</value>
+  </data>
+  <data name="LoadProfile" xml:space="preserve">
+    <value>Загрузка профиля работает ТОЛЬКО для в игре без модификаций.
+Профиль предварительно должен быть сохранён.
+
+Что бы загрузить ранее сохранённый профиль модификации воспользуйтесь кнопкой "Загрузить модификацию".
+
+Продолжить?</value>
+  </data>
+  <data name="UnloadManyModExeption" xml:space="preserve">
+    <value>Выгружая модификации вы сохраняете игровой профиль модификаций в папке с ПОСЛЕДНЕЙ загруженной модификацией.
+При повторной установке модификаций в том же порядке, в котором они были установлены до выгрузки модификаций, у вас будут сохранены все ваши предыдущие достижения.
+
+Продолжить?</value>
+  </data>
+  <data name="UnloadSingleModExeption" xml:space="preserve">
+    <value>Выгружая модификацию вы сохраняете игровой профиль модификации в папке с модификацией.
+При повторной установке модификации у вас будут сохранены все ваши предыдущие достижения.
+
+Продолжить?</value>
+  </data>
+  <data name="noExe" xml:space="preserve">
+    <value>Лаунчер установлен не полностью.
+Пожалуйста, переустановите лаунчер.
+Лаунчер должен находиться в корневой папке игры на одном уровне с файлами ExMachina.exe или HTA.exe.</value>
+  </data>
+  <data name="NoMods" xml:space="preserve">
+    <value>Не обнаружено установленных модификаций.
+Некоторые функции программы могут быть недоступны.</value>
+  </data>
+  <data name="NoModsName" xml:space="preserve">
+    <value>Нет модификаций</value>
+  </data>
+</root>

@@ -74,9 +74,9 @@
         
         <TextBlock xmlns:const="clr-namespace:ExMachinaLauncher.Properties" HorizontalAlignment="Left" Margin="17,38,0,0" TextWrapping="Wrap" Text="{x:Static const:Resources.LoadedModTB}" VerticalAlignment="Top" Height="20" Width="180" FontSize="14" Foreground="White" Grid.Column="1" />
         <TextBlock HorizontalAlignment="Left" Margin="17,109,0,0" TextWrapping="Wrap" Text="{x:Static Properties:Resources.ListModTA}" VerticalAlignment="Top" Height="20" Width="180" FontSize="14" Foreground="White" Grid.Column="1" />
-        <Button xmlns:const="clr-namespace:ExMachinaLauncher.Properties" Content="{x:Static const:Resources.StartGameBtn}" Grid.Column="3" HorizontalAlignment="Left" Margin="5,63,0,0" VerticalAlignment="Top" Width="180" Click="StartGame_Click" Height="22"/>
-        <Button xmlns:const="clr-namespace:ExMachinaLauncher.Properties" Content="{x:Static const:Resources.StartGameConsoleBtn}" Grid.Column="3" HorizontalAlignment="Left" Margin="5,90,0,0" VerticalAlignment="Top" Width="180" Click="StartGameConsole_Click" Height="22"/>
-        <ListBox x:Name="SelectedOS" Grid.Column="3" HorizontalContentAlignment="Center" Margin="5,117,15,0" VerticalAlignment="Top" Width="180" Height="36" Background="#FFCBCBC5">
+        <Button xmlns:const="clr-namespace:ExMachinaLauncher.Properties" Content="{x:Static const:Resources.StartGameBtn}" Grid.Column="3" HorizontalAlignment="Left" Foreground="#fffccc" Margin="5,63,0,0" VerticalAlignment="Top" Width="180" Click="StartGame_Click" Height="22"/>
+        <Button xmlns:const="clr-namespace:ExMachinaLauncher.Properties" Content="{x:Static const:Resources.StartGameConsoleBtn}" Grid.Column="3"  Foreground="#fffccc" HorizontalAlignment="Left" Margin="5,90,0,0" VerticalAlignment="Top" Width="180" Click="StartGameConsole_Click" Height="22"/>
+        <ListBox x:Name="SelectedOS" Grid.Column="3" HorizontalContentAlignment="Center" Margin="5,117,15,0" VerticalAlignment="Top" Width="164" Height="36" Background="#FFCBCBC5">
             <ListBox.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="5"/>
@@ -93,12 +93,12 @@
                 </Style>
             </ListBox.ItemContainerStyle>
         </ListBox>
-        <Button xmlns:const="clr-namespace:ExMachinaLauncher.Properties" Content="{x:Static const:Resources.BackUpMainProfileBtn}"  Grid.Column="3" HorizontalAlignment="Left" Margin="5,186,0,0" VerticalAlignment="Top" Width="180"  Click="BackUpMainProfile_Click" Height="22"/>
-        <Button xmlns:const="clr-namespace:ExMachinaLauncher.Properties" Content="{x:Static Properties:Resources.LoadMainProfileBtn}"  Grid.Column="3" HorizontalAlignment="Left" Margin="5,213,0,0" VerticalAlignment="Top" Width="180"  Click="LoadMainProfile_Click" Height="22"/>
-        <Button xmlns:const="clr-namespace:ExMachinaLauncher.Properties" x:Name="LoadModBtn" Content="{x:Static const:Resources.LoadModBtn}" Grid.Column="3" HorizontalAlignment="Left" Margin="5,258,0,0" VerticalAlignment="Top" Width="180" Click="LoadModToGame_Click" Height="22"/>
-        <Button xmlns:const="clr-namespace:ExMachinaLauncher.Properties" x:Name="UnloadModBtn" Content="{x:Static const:Resources.UnloadModBtn}"   Grid.Column="3" HorizontalAlignment="Left" Margin="5,285,0,0" VerticalAlignment="Top" Width="180" Click="UnloadMod_Click" Height="22"/>
-        <Button xmlns:const="clr-namespace:ExMachinaLauncher.Properties" Content="{x:Static const:Resources.CleareDataBtn}"   Grid.Column="3" HorizontalAlignment="Left" Margin="5,312,0,0" VerticalAlignment="Top" Width="180" Click="ClearData_Click" Height="22"/>
-        <Button xmlns:const="clr-namespace:ExMachinaLauncher.Properties" Content="{x:Static const:Resources.SiteBtn}"   Grid.Column="3" HorizontalAlignment="Left" Margin="5,355,0,0" VerticalAlignment="Top" Width="180" Click="GoToSite_Click" Height="22"/>
-        <Button xmlns:const="clr-namespace:ExMachinaLauncher.Properties" Content="{x:Static const:Resources.ExitBtn}"   Grid.Column="3" HorizontalAlignment="Left" Margin="5,382,0,0" VerticalAlignment="Top" Width="180" Click="CloseApp_Click" Height="22"/>
+        <Button xmlns:const="clr-namespace:ExMachinaLauncher.Properties" Content="{x:Static const:Resources.BackUpMainProfileBtn}"  Foreground="#fffccc" Grid.Column="3" HorizontalAlignment="Left" Margin="5,186,0,0" VerticalAlignment="Top" Width="180"  Click="BackUpMainProfile_Click" Height="22"/>
+        <Button xmlns:const="clr-namespace:ExMachinaLauncher.Properties" Content="{x:Static Properties:Resources.LoadMainProfileBtn}"  Foreground="#fffccc" Grid.Column="3" HorizontalAlignment="Left" Margin="5,213,0,0" VerticalAlignment="Top" Width="180"  Click="LoadMainProfile_Click" Height="22"/>
+        <Button xmlns:const="clr-namespace:ExMachinaLauncher.Properties" x:Name="LoadModBtn" Content="{x:Static const:Resources.LoadModBtn}" Foreground="#fffccc" Grid.Column="3" HorizontalAlignment="Left" Margin="5,258,0,0" VerticalAlignment="Top" Width="180" Click="LoadModToGame_Click" Height="22"/>
+        <Button xmlns:const="clr-namespace:ExMachinaLauncher.Properties" x:Name="UnloadModBtn" Content="{x:Static const:Resources.UnloadModBtn}"  Foreground="#fffccc"  Grid.Column="3" HorizontalAlignment="Left" Margin="5,285,0,0" VerticalAlignment="Top" Width="180" Click="UnloadMod_Click" Height="22"/>
+        <Button xmlns:const="clr-namespace:ExMachinaLauncher.Properties" Content="{x:Static const:Resources.CleareDataBtn}"  Foreground="#fffccc"  Grid.Column="3" HorizontalAlignment="Left" Margin="5,312,0,0" VerticalAlignment="Top" Width="180" Click="ClearData_Click" Height="22"/>
+        <Button xmlns:const="clr-namespace:ExMachinaLauncher.Properties" Content="{x:Static const:Resources.SiteBtn}"   Foreground="#fffccc" Grid.Column="3" HorizontalAlignment="Left" Margin="5,355,0,0" VerticalAlignment="Top" Width="180" Click="GoToSite_Click" Height="22"/>
+        <Button xmlns:const="clr-namespace:ExMachinaLauncher.Properties" Content="{x:Static const:Resources.ExitBtn}"   Foreground="#fffccc" Grid.Column="3" HorizontalAlignment="Left" Margin="5,382,0,0" VerticalAlignment="Top" Width="180" Click="CloseApp_Click" Height="22"/>
     </Grid>
 </Window>

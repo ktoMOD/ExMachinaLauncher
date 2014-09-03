@@ -11,8 +11,8 @@
     <Border BorderBrush="#FFFFA510"
                 BorderThickness="4">
         <Grid>
-            <Button Name="Ok" Content="Ok" HorizontalAlignment="Left" Margin="55,260,0,0" VerticalAlignment="Top" Width="135"  Height="22" Click="Ok_Click"/>
-            <Button Name="Cancel" Content="Cancel" HorizontalAlignment="Left" Margin="201,260,0,0" VerticalAlignment="Top" Width="135"  Height="22" Click="Cancel_Click"/>
+            <Button Name="Ok" Content="Ok" HorizontalAlignment="Left"   Foreground="#fffccc"  Margin="55,260,0,0" VerticalAlignment="Top" Width="135"  Height="22" Click="Ok_Click"/>
+            <Button Name="Cancel" Content="Cancel"   Foreground="#fffccc"  HorizontalAlignment="Left" Margin="201,260,0,0" VerticalAlignment="Top" Width="135"  Height="22" Click="Cancel_Click"/>
             <TextBox Name="WarningTextBlock" HorizontalAlignment="Left" Height="203" Margin="8,42,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="376" Background="White">
             <TextBox.Template>
                 <ControlTemplate>

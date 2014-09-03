@@ -158,6 +158,9 @@
     <Content Include="DEM_Logo.exe">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Resource Include="emarcade.ico" />
+    <Resource Include="InnerResources\emarcade.ico" />
+    <Resource Include="InnerResources\Meridian113.ico" />
     <Resource Include="InnerResources\Background.png" />
     <Resource Include="InnerResources\Btns\mm_button_1.png" />
     <Resource Include="InnerResources\Btns\mm_button_1b.png" />

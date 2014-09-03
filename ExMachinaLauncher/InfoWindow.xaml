@@ -11,7 +11,7 @@
     <Border BorderBrush="#FFFFA510"
                 BorderThickness="4">
         <Grid>
-            <Button Name="Ok" Content="Ok" HorizontalAlignment="Left" Margin="150,161,0,0" VerticalAlignment="Top" Width="100"  Height="22" Click="Ok_Click"/>
+            <Button Name="Ok" Content="Ok"    Foreground="#fffccc" HorizontalAlignment="Left" Margin="150,161,0,0" VerticalAlignment="Top" Width="100"  Height="22" Click="Ok_Click"/>
             <TextBox Name="InfoTextBlock" HorizontalAlignment="Left" Height="105" Margin="10,42,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="372" Background="White">
             <TextBox.Template>
                 <ControlTemplate>
